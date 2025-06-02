@@ -99,6 +99,7 @@ def make_periodic_table():
 
 def main():
     periodic_table = make_periodic_table()
-    print (periodic_table[1][2])
+    for i in range (94):
+        print (f"{periodic_table[i][1]}, {periodic_table[i][2]}")
 
 main()
