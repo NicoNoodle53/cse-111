@@ -102,4 +102,5 @@ def main():
     for i in range (94):
         print (f"{periodic_table[i][1]}, {periodic_table[i][2]}")
 
-main()
+if __name__ == "__main__":
+    main()
